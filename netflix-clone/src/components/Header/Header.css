@@ -1,0 +1,68 @@
+/* Header Outer Container */
+.header_outer_container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; 
+     /* background-color: rgba(20,20,20,0.85); */
+    color: white;
+    transition: all 0.5s ease-in;
+    z-index: 1000; 
+}
+
+
+.nav__black {
+    background-color: rgb(20, 20, 20);
+}
+
+/* Header inner container */
+.header_container {
+    width: 90%;
+    max-width: 1400px; /* optional, for large screens */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left side menu */
+.header_left ul {
+    display: flex;
+    list-style: none;
+    gap: 25px; /* space between items */
+    margin: 0;
+    padding: 0;
+}
+
+.header_left li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap; /* prevent wrapping */
+}
+
+.header_left img {
+    display: block;
+    height: 40px;
+    width: auto;
+}
+
+/* Right side icons */
+.header_right ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.header_right li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
