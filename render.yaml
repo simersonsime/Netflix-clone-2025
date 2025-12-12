@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: netflix-clone
-    env: static
-    buildCommand: "cd netflix-clone && npm install && npm run build"
-    staticPublishPath: "netflix-clone/build"
